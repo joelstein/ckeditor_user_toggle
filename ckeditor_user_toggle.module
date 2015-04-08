@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_ckeditor_default_settings_alter() from CKEditor.
+ */
+function ckeditor_user_toggle_ckeditor_default_settings_alter(&$settings) {
+  // Set the user's toggle default to "off".
+  $settings['show_toggle'] = 'f';
+}

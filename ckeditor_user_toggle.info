@@ -1,0 +1,5 @@
+name = CKEditor User Toggle
+description = Disables user toggling by default.
+core = 7.x
+package = Custom
+dependencies[] = ckeditor
